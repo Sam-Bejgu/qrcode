@@ -7,22 +7,24 @@
     
 }
 body{
-    background-color:#cdf1ff;
+    background-color:hsl(212, 45%, 89%);
 }
 .card{
     width:320px;
-    height: 410px;
+    height: 450px;
     color: black;
     text-align: center;
     margin:100px auto 0;
+    margin-bottom: 40px;
     padding: 40px 15px;
     background-color: white;
     border-radius: 12px;
+    box-shadow: inset;
 
 }
 .card img {
     width: 320px;
-    height: 300px;
+    height: 288px;
     border-radius: 12px;
     margin: -30px -40px 0; 
 }
@@ -40,25 +42,12 @@ body{
 }
 .card h3{
     font-family: 'Outfit', sans-serif;
-    font-weight: 400;  
+    font-weight: 100;  
     font-size: 15px;
 }
 
 @media screen and (max-width: 375px) {
 }
 
-@media screen and (min-width: 376px) and (max-width: 1440px) {
-}
-.attribution { 
-    font-size: 11px; 
-    text-align: center;
-    margin-top: 10px; 
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%);
-    font-family: 'Outfit', sans-serif;
-    margin-top: 10px;
-    text-align: center;
- }
+@media screen and (min-width: 376px) and (max-width: 1440px) {}
     
